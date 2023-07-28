@@ -8,11 +8,11 @@ const Home = () => {
   return (
     <>
       <Main />
-      <Row title= 'Up Coming' fetchUrl={request.requestUpcoming} />
-      <Row title= 'Horror' fetchUrl={request.requestHorror} />
-      <Row title= 'Popular' fetchUrl={request.requestPopular} />
-      <Row title= 'Top Rated' fetchUrl={request.requestTopRated} />
-      <Row title= 'Trending' fetchUrl={request.requestTrending} />
+      <Row rowId='1' title= 'Up Coming' fetchUrl={request.requestUpcoming} />
+      <Row rowId='2' title= 'Horror' fetchUrl={request.requestHorror} />
+      <Row rowId='3' title= 'Popular' fetchUrl={request.requestPopular} />
+      <Row rowId='4' title= 'Top Rated' fetchUrl={request.requestTopRated} />
+      <Row rowId='5' title= 'Trending' fetchUrl={request.requestTrending} />
     </>
   )
 }
