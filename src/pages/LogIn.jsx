@@ -1,5 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
+import {FaLinkedin, FaGithub, FaWhatsapp} from 'react-icons/fa';
+import {HiOutlineMail} from 'react-icons/hi';
+
 
 const LogIn = () => {
   return (
@@ -9,6 +12,7 @@ const LogIn = () => {
       className='hidden sm:block absolute w-full h-full object-cover' 
       src='https://assets.nflxext.com/ffe/siteui/vlv3/5eab1b22-c5ea-48b0-8ef4-862b3fa6df2c/e630dd10-1a25-4ce7-84fc-81fa5897e400/NG-en-20230724-popsignuptwoweeks-perspective_alpha_website_medium.jpg' 
       alt='/' />
+      <video className='hidden sm:block absolute w-full h-full object-cover' src='' autoPlay loop muted />
       <div className='bg-black/60 fixed top-0 left-0 w-full h-screen'></div>
       <div className='fixed w-full px-4 py-24 z-50'>
       <div className='max-w-[450px] h-[600px] mx-auto bg-black/75 text-white'>
@@ -38,6 +42,13 @@ const LogIn = () => {
                 </span>{' '}
                 <Link to='/signup'>Sign Up</Link>
                 </p>
+                <h3 className='flex text-gray-600 text-xl font-bold items-center justify-center'>Follow Me</h3>
+                <div className='flex justify-between my-6'>
+                  <FaGithub className='bg-black-500 cursor-pointer ' size={20} />
+                  <FaLinkedin className='bg-blue-500 cursor-pointer' size={20} />
+                  <FaWhatsapp className='bg-green-500 cursor-pointer' size={20} />
+                  <HiOutlineMail className='bg-purple-500 cursor-pointer' size={20} />
+                </div>
           </form>
         </div>
       </div>
