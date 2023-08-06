@@ -44,10 +44,11 @@ const LogIn = () => {
                 </p>
                 <h3 className='flex text-gray-600 text-xl font-bold items-center justify-center'>Follow Me</h3>
                 <div className='flex justify-between my-6'>
-                  <FaGithub className='bg-black-500 cursor-pointer ' size={20} />
-                  <FaLinkedin className='bg-blue-500 cursor-pointer' size={20} />
-                  <FaWhatsapp className='bg-green-500 cursor-pointer' size={20} />
-                  <HiOutlineMail className='bg-purple-500 cursor-pointer' size={20} />
+                <a href='https://www.github.com/emmacodec'><FaGithub className='bg-black-500 cursor-pointer ' size={20} /></a>
+                  <a href='https://www.linkedin.com/in/daniel-emmanuel-924564236'><FaLinkedin className='bg-blue-500 cursor-pointer' size={20} /></a>
+                  <a href='https://wa.me/2348164060988'><FaWhatsapp className='bg-green-500 cursor-pointer' size={20} /></a>
+                  <a href='https://ojochideteidi@gmail.com'><HiOutlineMail className='bg-purple-500 cursor-pointer' size={20} /></a>
+              
                 </div>
           </form>
         </div>
