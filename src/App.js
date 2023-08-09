@@ -5,6 +5,7 @@ import { AuthContextProvider } from "./context/Authcontext";
 import LogIn from "./pages/LogIn";
 import SignUp from "./pages/SignUp";
 import Accounts from "./pages/Accounts";
+import Securedroute from "./components/Securedroute";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<LogIn />} />
         <Route path="/signup" element={<SignUp />} />
-        <Route path="/account" element={<Accounts />} />
+        <Route path="/account" element={<Securedroute><Accounts /></Securedroute>} />
       </Routes>
     </AuthContextProvider>
  
