@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import {UserAuth} from '../context/Authcontext';
 import {FaLinkedin, FaGithub, FaWhatsapp} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
+import watch from '../assets/watch.mp4'
 
 
 const SignUp = () => {
@@ -26,11 +27,7 @@ const SignUp = () => {
   return (
     <>
     <div className='w-full h-screen '>
-      <img 
-      className='hidden sm:block absolute w-full h-full object-cover' 
-      src='https://assets.nflxext.com/ffe/siteui/vlv3/5eab1b22-c5ea-48b0-8ef4-862b3fa6df2c/e630dd10-1a25-4ce7-84fc-81fa5897e400/NG-en-20230724-popsignuptwoweeks-perspective_alpha_website_medium.jpg' 
-      alt='/' />
-      <video className='hidden sm:block absolute w-full h-full object-cover' src='' autoPlay loop muted />
+      <video className='hidden sm:block absolute w-full h-full object-cover' src={watch} autoPlay loop muted />
       <div className='bg-black/60 fixed top-0 left-0 w-full h-screen'></div>
       <div className='fixed w-full px-4 py-24 z-50'>
       <div className='max-w-[450px] h-[600px] mx-auto bg-black/75 text-white'>
