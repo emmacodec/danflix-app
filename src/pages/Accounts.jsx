@@ -1,5 +1,6 @@
 import React from 'react'
 import wow from '../assets/wow.mp4'
+import Savedshows from '../components/Savedshows';
 
 const Accounts = () => {
   return (
@@ -11,7 +12,7 @@ const Accounts = () => {
       <h1 className='text-3xl md:text-5xl font-bold'>My Saved Shows</h1>
     </div>
     </div>
-      
+      <Savedshows />
     </>
   );
 };
