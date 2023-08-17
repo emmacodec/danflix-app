@@ -66,7 +66,6 @@ const LogIn = () => {
                  New to DANFLIX?
                 </span>{' '}
                 <Link to='/signup'>Sign Up</Link>
-                </p>
                 <h3 className='flex text-gray-600 text-xl font-bold items-center justify-center'>Drop Your Comments</h3>
                 <div className='flex justify-between my-6'>
                 <a href='https://www.github.com/emmacodec'><FaGithub className='bg-black-500 cursor-pointer ' size={20} /></a>
@@ -75,6 +74,8 @@ const LogIn = () => {
                   <a href='https://ojochideteidi@gmail.com'><HiOutlineMail className='bg-purple-500 cursor-pointer' size={20} /></a>
               
                 </div>
+                </p>
+               
           </form>
         </div>
       </div>

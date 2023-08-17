@@ -60,7 +60,6 @@ const SignUp = () => {
                 Already Subscribe to DANFLIX? 
                 </span>{' '}
                 <Link to='/login'>Sign In</Link>
-                </p>
                 <h3 className='flex text-gray-600 text-xl font-bold items-center justify-center'>Follow Me</h3>
                 <div className='flex justify-between my-6'>
                   <a href='https://www.github.com/emmacodec'><FaGithub className='bg-black-500 cursor-pointer ' size={20} /></a>
@@ -69,6 +68,8 @@ const SignUp = () => {
                   <a href='https://danielemmanuel7553@gmail.com'><HiOutlineMail className='bg-purple-500 cursor-pointer' size={20} /></a>
                   
               </div>
+                </p>
+               
           </form>
         </div>
       </div>
